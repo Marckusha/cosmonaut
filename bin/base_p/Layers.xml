@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<GUI>
+  <Layer name="GameLayer">
+    <Controls>
+      <GameWidget name="GameWidget"/>
+    </Controls>
+  </Layer>
+  <Layer name="MenuLayer">
+    <Controls>
+      <MenuWidget name="MenuWidget"/>
+    </Controls>
+  </Layer>
+</GUI>

@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<Resources>
+	<FreeTypeFonts group="TestGroup" upload="false">
+		<font name="arial" family="arial" size="12" color="255;255;255;255" letterSpacing="0">
+			<Effect alpha="0.1" type="shadow" blurX="2" blurY="2" strength="50" angle="0" inner="false" color="0;0;0;255" offset="0"/>
+		</font>
+	</FreeTypeFonts>
+	<Textures>
+    <texture id="Star" path="textures/star.png" group="TestGroup" upload="false"/>
+    <texture id="Circle" path="textures/circle.png" group="TestGroup" upload="false"/>
+    <texture id="btnStart_Text" path="textures/Local/Buttons/Start_text.png" group="MainMenu" upload="true"/>
+    <texture id="cancel_normal" path="textures/cancel_normal" />
+    <texture id="red" path="textures/red"/>
+    <texture id="cancel_active" path="textures/cancel_active" />
+    <texture id="cancel_pressed" path="textures/cancel_pressed" />
+    <texture id="bar_o2" path="textures/bar_O2"/>
+    <texture id="Player" path="textures/Dynamic/Player"/>
+    <texture id="helm0" path="textures/Dynamic/helm0"/>
+    <texture id="helm1" path="textures/Dynamic/helm1"/>
+    <texture id="helm2" path="textures/Dynamic/helm2"/>
+    <texture id="helm3" path="textures/Dynamic/helm3"/>
+    <texture id="helm4" path="textures/Dynamic/helm4"/>
+    <texture id="end_O2" path="textures/Dynamic/ASTROMAN_end_O2"/>
+    <texture id="astroman_end" path="textures/Dynamic/ASTROMAN_end"/>
+	</Textures>
+  <Textures group="UI" basePath="textures/">
+    <texture upload="true" group="MainMenu" path="Local/Buttons/Start_text.png" id="btnStart_Text"/>
+    <texture path="bar_O2" id="bar_O2"/>
+    <texture path="bar_O2_bg" id="bar_O2_bg"/>
+    <texture path="interface_O2" id="interface_O2"/>
+  </Textures>
+  <Textures group="Trash" basePath="textures/Trash">
+    <texture path="m1.png" id="Trash1"/>
+    <texture path="m2.png" id="Trash2"/>
+    <texture path="m3.png" id="Trash3"/>
+    <texture path="m4.png" id="Trash4"/>
+    <texture path="m5.png" id="Trash5"/>
+    <texture path="m6.png" id="Trash6"/>
+    <texture path="m7.png" id="Trash7"/>
+    <texture path="m8.png" id="Trash8"/>
+    <texture path="m9.png" id="Trash9"/>
+    <texture path="m10.png" id="Trash10"/>
+    <texture path="m11.png" id="Trash11"/>
+    <texture path="m12.png" id="Trash12"/>
+    <texture path="m13.png" id="Trash13"/>
+    <texture path="m14.png" id="Trash14"/>
+    <texture path="m15.png" id="Trash15"/>
+  </Textures>
+  <Textures group="Common" basePath="textures">
+    <texture path="Exit.png" id="Exit"/>
+    <texture path="Win.png" id="Win"/>
+    <texture path="Tutorial.png" id="Tutorial"/>
+    <texture path="Background.png" id="Background"/>
+  </Textures>
+  <Textures group="DynamicObjects" basePath="textures/Dynamic">
+    <texture id="Criogen" path="Criogen.png"/>
+    <texture id="Powerup" path="O2.png"/>
+    <texture id="Barrel" path="Barrel.png"/>
+    <texture id="Blocks" path="Blocks.png"/>
+    <texture id="Box" path="Box.png"/>
+    <texture id="helm0" path="helm0.png"/>
+    <texture id="helm1" path="helm1.png"/>
+    <texture id="helm2" path="helm2.png"/>
+    <texture id="helm3" path="helm3.png"/>
+    <texture id="helm4" path="helm4.png"/>
+    <texture id="helm_death" path="helm_death.png"/>
+    <texture id="RepairKit" path="skotch.png"/>
+    <texture id="ASTROMAN_end" path="ASTROMAN_end.png"/>
+    <texture id="ASTROMAN_end_O2" path="ASTROMAN_end_O2.png"/>
+  </Textures>
+  <Textures group="Tilesets" basePath="textures">
+    <texture upload="false" path="Tilesets/Spaceship.png" id="SpaceshipTileset"/>
+  </Textures>
+  <Sounds group="Sounds" basePath="sound">
+    <sample path="Ambient5.ogg" id="Ambient5" mix="1" mode="stream"/>
+    <sample path="Scotch.ogg" id="Scotch" mix="1" mode="stream+cache"/>
+    <sample path="Oxygen.ogg" id="Oxygen" mix="1" mode="stream+cache"/>
+    <sample path="Gravity.ogg" id="Gravity" mix="2" mode="stream+cache"/>
+    <sample path="Hit1.ogg" id="Hit1" mix="3" mode="stream+cache"/>
+    <sample path="Hit2.ogg" id="Hit2" mix="3" mode="stream+cache"/>
+    <sample path="Hit3.ogg" id="Hit3" mix="3" mode="stream+cache"/>
+    <sample path="Hit4.ogg" id="Hit4" mix="3" mode="stream+cache"/>
+  </Sounds>
+</Resources>

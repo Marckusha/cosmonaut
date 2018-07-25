@@ -1,0 +1,9 @@
+bin/write_directory
+bin/*.pdb
+bin/*.ilk
+bin/*.exe
+obj
+projects/osx
+projects/VS2017/.vs
+engine
+libs
